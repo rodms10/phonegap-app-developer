@@ -4,6 +4,11 @@
             "id": "phonegap",
             "version": "3.2.0",
             "uri": "https://github.com/phonegap/phonegap-app-hello-world/archive/3.2.0.tar.gz"
+        },
+        "firefoxos": {
+            "uri": "/Users/rodrigo/mozilla/cordova/cordova-firefoxos",
+            "version": "dev",
+            "id": "cordova-firefoxos-dev"
         }
     },
     "id": "com.phonegap.app",

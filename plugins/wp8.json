@@ -9,31 +9,31 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Insomnia\"><param name=\"wp-package\" value=\"Insomnia\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"SplashScreen\"><param name=\"wp-package\" value=\"SplashScreen\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"File\"><param name=\"wp-package\" value=\"File\" /></feature>",
+                            "xml": "<feature name=\"Insomnia\"><param name=\"wp-package\" value=\"Insomnia\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"FileTransfer\"><param name=\"wp-package\" value=\"FileTransfer\" /></feature>",
+                            "xml": "<feature name=\"Battery\"><param name=\"wp-package\" value=\"Battery\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Device\"><param name=\"wp-package\" value=\"Device\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"NetworkStatus\"><param name=\"wp-package\" value=\"NetworkStatus\" /></feature>",
+                            "xml": "<feature name=\"Camera\"><param name=\"wp-package\" value=\"Camera\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"Console\"><param name=\"wp-package\" value=\"DebugConsole\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Contacts\"><param name=\"wp-package\" value=\"Contacts\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"wp-package\" value=\"Device\" /></feature>",
                             "count": 1
                         },
                         {
@@ -46,6 +46,14 @@
                         },
                         {
                             "xml": "<feature name=\"Notification\"><param name=\"wp-package\" value=\"Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"wp-package\" value=\"File\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileTransfer\"><param name=\"wp-package\" value=\"FileTransfer\" /></feature>",
                             "count": 1
                         },
                         {
@@ -65,23 +73,19 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"wp-package\" value=\"NetworkStatus\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"wp-package\" value=\"SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"StatusBar\"><param name=\"wp-package\" value=\"StatusBar\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"Vibration\"><param name=\"wp-package\" value=\"Vibration\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Battery\"><param name=\"wp-package\" value=\"Battery\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Contacts\"><param name=\"wp-package\" value=\"Contacts\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Camera\"><param name=\"wp-package\" value=\"Camera\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -115,20 +119,20 @@
                             "count": 4
                         },
                         {
-                            "xml": "<Capability Name=\"ID_CAP_IDENTITY_DEVICE\" />",
+                            "xml": "<Capability Name=\"ID_CAP_CONTACTS\" />",
                             "count": 1
                         },
                         {
-                            "xml": "<Capability Name=\"ID_CAP_NETWORKING\" />",
-                            "count": 3
+                            "xml": "<Capability Name=\"ID_CAP_IDENTITY_DEVICE\" />",
+                            "count": 1
                         },
                         {
                             "xml": "<Capability Name=\"ID_CAP_LOCATION\" />",
                             "count": 1
                         },
                         {
-                            "xml": "<Capability Name=\"ID_CAP_CONTACTS\" />",
-                            "count": 1
+                            "xml": "<Capability Name=\"ID_CAP_NETWORKING\" />",
+                            "count": 3
                         }
                     ]
                 }
@@ -139,19 +143,19 @@
         "nl.x-services.plugins.insomnia": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
-        "org.apache.cordova.splashscreen": {
+        "org.apache.cordova.battery-status": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
-        "org.apache.cordova.file-transfer": {
-            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
-        },
-        "org.apache.cordova.device": {
-            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
-        },
-        "org.apache.cordova.network-information": {
+        "org.apache.cordova.camera": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
         "org.apache.cordova.console": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "org.apache.cordova.contacts": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "org.apache.cordova.device": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
         "org.apache.cordova.device-motion": {
@@ -161,6 +165,12 @@
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
         "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "org.apache.cordova.file-transfer": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
         "org.apache.cordova.geolocation": {
@@ -178,25 +188,18 @@
         "org.apache.cordova.media-capture": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
         "org.apache.cordova.statusbar": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
         "org.apache.cordova.vibration": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
-        },
-        "org.apache.cordova.battery-status": {
-            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
-        },
-        "org.apache.cordova.contacts": {
-            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
-        },
-        "org.apache.cordova.camera": {
-            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         }
     },
-    "dependent_plugins": {
-        "org.apache.cordova.file": {
-            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
-        }
-    }
+    "dependent_plugins": {}
 }
