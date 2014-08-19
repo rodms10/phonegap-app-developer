@@ -13,10 +13,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Insomnia\"><param name=\"wp-package\" value=\"Insomnia\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Battery\"><param name=\"wp-package\" value=\"Battery\" /></feature>",
                             "count": 1
                         },
@@ -87,6 +83,10 @@
                         {
                             "xml": "<feature name=\"Vibration\"><param name=\"wp-package\" value=\"Vibration\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Insomnia\"><param name=\"wp-package\" value=\"Insomnia\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -140,9 +140,6 @@
         }
     },
     "installed_plugins": {
-        "nl.x-services.plugins.insomnia": {
-            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
-        },
         "org.apache.cordova.battery-status": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
@@ -198,6 +195,9 @@
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         },
         "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
+        },
+        "nl.x-services.plugins.insomnia": {
             "PACKAGE_NAME": "{9E0C4412-1A96-4B19-A3F6-9D0CD6906F71}"
         }
     },

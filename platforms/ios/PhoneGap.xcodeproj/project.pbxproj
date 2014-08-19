@@ -42,7 +42,6 @@
 		BFBF2B1C19899DEB0078D8FA /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBF2B1B19899DEB0078D8FA /* OpenAL.framework */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
-		75F0D51A2BA24B8BBF0E5992 /* Insomnia.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AA69A89AA648778CD11F21 /* Insomnia.m */; };
 		66C2178E021E405E94633A7A /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = A69BA49F744D4ED9866A8D50 /* CDVBattery.m */; };
 		999A86D893834CD396133DDF /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD24E54A71E4D6B82BB88BB /* CDVAccelerometer.m */; };
 		F1F70681688E496EA985C50E /* CDVCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = F83530EE5C894A5DBD95AB8D /* CDVCompass.m */; };
@@ -52,6 +51,7 @@
 		CC888E7C52C147039377FE72 /* CDVCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90CDB8BDD51549E5AB194DF6 /* CDVCapture.bundle */; };
 		5B11475EC30641E8A29AE483 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E4F66F8C7413991D6E3E7 /* CDVConnection.m */; };
 		709CEFE2FCD54872ADE92A18 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 11429C909D144999BBD8FCF7 /* CDVReachability.m */; };
+		808F3B49AA0D4AB7A471DB4A /* Insomnia.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE424066864086A68764DE /* Insomnia.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,8 +162,6 @@
 		F14790EEB5E04004AA77C076 /* CDVCapture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CDVCapture.bundle; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = PhoneGap/config.xml; sourceTree = "<group>"; };
 		F9F4B3CB13C64DDFB93917E0 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		41AA69A89AA648778CD11F21 /* Insomnia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Insomnia.m"; path = "nl.x-services.plugins.insomnia/Insomnia.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		3FCC24D81C0046A795FA0DF5 /* Insomnia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Insomnia.h"; path = "nl.x-services.plugins.insomnia/Insomnia.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		A69BA49F744D4ED9866A8D50 /* CDVBattery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVBattery.m"; path = "org.apache.cordova.battery-status/CDVBattery.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		BE972965CE764612BD99FA36 /* CDVBattery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVBattery.h"; path = "org.apache.cordova.battery-status/CDVBattery.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		FCD24E54A71E4D6B82BB88BB /* CDVAccelerometer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAccelerometer.m"; path = "org.apache.cordova.device-motion/CDVAccelerometer.m"; sourceTree = "<group>"; fileEncoding = 4; };
@@ -180,6 +178,8 @@
 		11429C909D144999BBD8FCF7 /* CDVReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVReachability.m"; path = "org.apache.cordova.network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		5A50712CA2FC4D0CAA149153 /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "org.apache.cordova.network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		FC48AEC480684D689F7F4C13 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "org.apache.cordova.network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5FBE424066864086A68764DE /* Insomnia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Insomnia.m"; path = "nl.x-services.plugins.insomnia/Insomnia.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EB6C14279BC54D9C80412618 /* Insomnia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Insomnia.h"; path = "nl.x-services.plugins.insomnia/Insomnia.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,8 +348,6 @@
 				0268920529F24F7BA1B30B4F /* CDVStatusBar.m */,
 				BF0673F0195102700026C411 /* CDVVibration.h */,
 				BF0673F1195102700026C411 /* CDVVibration.m */,
-				41AA69A89AA648778CD11F21 /* Insomnia.m */,
-				3FCC24D81C0046A795FA0DF5 /* Insomnia.h */,
 				A69BA49F744D4ED9866A8D50 /* CDVBattery.m */,
 				BE972965CE764612BD99FA36 /* CDVBattery.h */,
 				FCD24E54A71E4D6B82BB88BB /* CDVAccelerometer.m */,
@@ -364,6 +362,8 @@
 				11429C909D144999BBD8FCF7 /* CDVReachability.m */,
 				5A50712CA2FC4D0CAA149153 /* CDVConnection.h */,
 				FC48AEC480684D689F7F4C13 /* CDVReachability.h */,
+				5FBE424066864086A68764DE /* Insomnia.m */,
+				EB6C14279BC54D9C80412618 /* Insomnia.h */,
 			);
 			name = Plugins;
 			path = PhoneGap/Plugins;
@@ -560,7 +560,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				75F0D51A2BA24B8BBF0E5992 /* Insomnia.m in Sources */,
 				66C2178E021E405E94633A7A /* CDVBattery.m in Sources */,
 				999A86D893834CD396133DDF /* CDVAccelerometer.m in Sources */,
 				F1F70681688E496EA985C50E /* CDVCompass.m in Sources */,
@@ -568,6 +567,7 @@
 				1840C0AEEAD24855A8E86D68 /* CDVCapture.m in Sources */,
 				5B11475EC30641E8A29AE483 /* CDVConnection.m in Sources */,
 				709CEFE2FCD54872ADE92A18 /* CDVReachability.m in Sources */,
+				808F3B49AA0D4AB7A471DB4A /* Insomnia.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

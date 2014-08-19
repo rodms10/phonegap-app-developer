@@ -19,9 +19,6 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <feature name="Insomnia">
-        <param name="ios-package" value="Insomnia" />
-    </feature>
     <feature name="Battery">
         <param name="ios-package" value="CDVBattery" />
     </feature>
@@ -83,6 +80,9 @@
     <preference name="StatusBarStyle" value="lightcontent" />
     <feature name="Vibration">
         <param name="ios-package" value="CDVVibration" />
+    </feature>
+    <feature name="Insomnia">
+        <param name="ios-package" value="Insomnia" />
     </feature>
     <name>PhoneGap</name>
     <description>

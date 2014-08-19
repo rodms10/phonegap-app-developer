@@ -227,9 +227,6 @@
     <ItemGroup />
     <ItemGroup />
     <ItemGroup>
-        <Compile Include="Plugins\nl.x-services.plugins.insomnia\Insomnia.cs" />
-    </ItemGroup>
-    <ItemGroup>
         <Compile Include="Plugins\org.apache.cordova.battery-status\Battery.cs" />
     </ItemGroup>
     <ItemGroup>
@@ -327,6 +324,9 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Plugins\org.apache.cordova.vibration\Vibration.cs" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Plugins\nl.x-services.plugins.insomnia\Insomnia.cs" />
     </ItemGroup>
     <ItemGroup>
         <Content Include="www\cordova.js" />

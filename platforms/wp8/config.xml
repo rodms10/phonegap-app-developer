@@ -3,9 +3,6 @@
     <feature name="SplashScreen">
         <param name="wp-package" value="SplashScreen" />
     </feature>
-    <feature name="Insomnia">
-        <param name="wp-package" value="Insomnia" />
-    </feature>
     <feature name="Battery">
         <param name="wp-package" value="Battery" />
     </feature>
@@ -60,6 +57,9 @@
     </feature>
     <feature name="Vibration">
         <param name="wp-package" value="Vibration" />
+    </feature>
+    <feature name="Insomnia">
+        <param name="wp-package" value="Insomnia" />
     </feature>
     <name>PhoneGap</name>
     <description>

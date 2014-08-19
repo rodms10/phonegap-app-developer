@@ -9,10 +9,6 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Insomnia\"><param name=\"android-package\" value=\"nl.xservices.plugins.Insomnia\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Battery\"><param name=\"android-package\" value=\"org.apache.cordova.batterystatus.BatteryListener\" /></feature>",
                             "count": 1
                         },
@@ -79,6 +75,10 @@
                         {
                             "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Insomnia\"><param name=\"android-package\" value=\"nl.xservices.plugins.Insomnia\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -142,9 +142,6 @@
         }
     },
     "installed_plugins": {
-        "nl.x-services.plugins.insomnia": {
-            "PACKAGE_NAME": "com.adobe.phonegap.app"
-        },
         "org.apache.cordova.battery-status": {
             "PACKAGE_NAME": "com.adobe.phonegap.app"
         },
@@ -200,6 +197,9 @@
             "PACKAGE_NAME": "com.adobe.phonegap.app"
         },
         "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "com.adobe.phonegap.app"
+        },
+        "nl.x-services.plugins.insomnia": {
             "PACKAGE_NAME": "com.adobe.phonegap.app"
         }
     },
